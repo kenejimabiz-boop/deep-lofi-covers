@@ -1,0 +1,15 @@
+# このリポジトリは公開画像のみを扱う。認証情報は置かない。
+.env
+.env.*
+!.env.example
+credentials/
+*client_secret*.json
+*token*.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+.DS_Store
+__pycache__/
+*.pyc
